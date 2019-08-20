@@ -17,6 +17,7 @@
     Description :<input type="text" th:field="*{description}" />
     <span th:if="${#fields.hasErrors('description')}"
           th:errors="*{description}"></span> <br />
+    <input type="submit" value="Submit" />
 </form>
 </body>
 </html>

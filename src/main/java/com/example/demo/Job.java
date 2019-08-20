@@ -24,7 +24,7 @@ public class Job {
 
     @NotNull
     @Size(min=10)
-    private short description;
+    private String description;
 
     public long getId() {
         return id;
@@ -50,11 +50,11 @@ public class Job {
         this.employer = employer;
     }
 
-    public short getDescription() {
+    public String getDescription() {
         return description;
     }
 
-    public void setDescription(short description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 }
